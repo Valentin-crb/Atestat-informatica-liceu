@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://intelligence.sri.ro/wp-content/uploads/2020/06/Pandemie_1700246950.jpg);
+    background-size: contain;
+    background-position: center;
+    background-color: #187bdf;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: x-large;
+    position: center;
+    color: #ecf0f1;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    line-height: 1.5;
+
+}
+h1 {
+    background-color: #044d7e;
+    color: #03c9a8;
+    text-align: center;
+    position:center;
+    margin-bottom: 0;
+}
+p {
+	
+    font-size: xx-large;
+    text-align: justify;
+    color: #ffffff;
+    background-color: #00b7ff77;
+    text-indent: 80px;
+	margin: auto; /* Resetăm margin-ul implicit al paragrafului */
+    padding: 20px; /* Adăugăm un spațiu în jurul textului */
+    line-height: 1.2; /* Ajustăm înălțimea liniei */
+	list-style-position:inside;
+}
+button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2980b9;
+    width: 100%;
+} 
+
+nav a {
+    transition: 0.6s ease;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+section {
+    margin: 20px auto; /* Center the section with 20px margin on top and bottom */
+    padding: 10px; /* Adjust padding to make the border smaller */
+    width: 70%; /* Adjust the width of the section */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+    text-align: center;
+    background-color: rgb(49, 61, 57);
+    border: 1px solid #fff;
+}
+section h2, section p {
+    color: #fff;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 8px;
+}
+img:hover {
+  transform: scaleX(-1);
+}
